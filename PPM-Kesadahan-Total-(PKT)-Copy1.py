@@ -11,6 +11,10 @@ if add_selectbox == 'Tentang Aplikasi':
     st.image(Image.open("Web Aplikasi.jpg"))
     st.write('Aplikasi ini dibuat untuk mempermudah dalam melakukan perhitungan Parts Per Million Kesadahan Total (PPM Kesadahan Total) yang sering dilakukan saat melakukan suatu analisis dilaboratorium dan harus dilakukan dalam waktu yang singkat. Dengan adanya perkembangan teknologi, aplikasi perhitungan pun dapat dibuat untuk mempermudah dan meminimalisir terjadinya kesalahan dalam perhitungan PPM Kesadahan Total yang dilakukan saat proses analisis dilaboratorium. ')
 
+    st.title('Aplikasi ini dibuat oleh Kelompok 5')
+    st.write('Anggota Kelompok :')
+    st.markdown('<p class="big-font">1. Cahyaning Fitriana Rahayu  (2219047)<br>2. Lola Amaria  (2219099)<br>3. Manisa Najwa Hakim      (2219104)<br>4. Nur Azizah  (2219135)<br>5. Saraswati  (2219162)</p>', unsafe_allow_html=True)
+
 #Halaman Tentang PPM Kesadahan Total
 if add_selectbox == 'Tentang PPM Kesadahan Total':
     st.subheader('Penjelasan PPM Kesadahan Total')
