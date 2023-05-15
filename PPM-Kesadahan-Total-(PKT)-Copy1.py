@@ -7,7 +7,7 @@ add_selectbox = st.sidebar.selectbox("Menu :mag:",("Tentang Aplikasi","Tentang P
 #Halaman Tentang Aplikasi 
 if add_selectbox == 'Tentang Aplikasi':
     
-    st.title('Penjelasan Aplikasi :computer:')
+    st.title('Tentang Aplikasi :computer:')
     st.image(Image.open("Web Aplikasi.jpg"))
     st.write('Aplikasi ini dibuat untuk mempermudah dalam melakukan perhitungan Parts Per Million Kesadahan Total (PPM Kesadahan Total) yang sering dilakukan saat melakukan suatu analisis dilaboratorium dan harus dilakukan dalam waktu yang singkat. Dengan adanya perkembangan teknologi, aplikasi perhitungan pun dapat dibuat untuk mempermudah dan meminimalisir terjadinya kesalahan dalam perhitungan PPM Kesadahan Total yang dilakukan saat proses analisis dilaboratorium. ')
 
